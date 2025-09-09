@@ -1,0 +1,5931 @@
+{
+  "meta": {
+    "timestamp": "2025-09-09T19:47:39.639119",
+    "base_path": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc",
+    "backup_path": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/backup_pre_ingestao",
+    "total_arquivos": 71,
+    "versao_auditoria": "Auditoria Pós-Ingestão v1.0"
+  },
+  "resumo_executivo": {
+    "arquivos_auditados": 71,
+    "arquivos_conformes": 5,
+    "arquivos_parcialmente_conformes": 35,
+    "arquivos_nao_conformes": 31,
+    "arquivos_falha_critica": 0,
+    "score_medio_conformidade": 72.67605633802818,
+    "problemas_criticos_total": 9,
+    "problemas_menores_total": 88
+  },
+  "validacao_metodologia": {
+    "docs_nucleares_criticos": {
+      "esperado": 4,
+      "correto": 0,
+      "docs": []
+    },
+    "categoria_a_correta": {
+      "esperado": 9,
+      "correto": 9,
+      "docs": [
+        "doc01",
+        "doc04",
+        "doc16",
+        "doc19",
+        "doc20",
+        "doc25",
+        "doc59",
+        "doc60",
+        "doc64"
+      ]
+    },
+    "correlacoes_nucleares": {
+      "esperado": 4,
+      "correto": 4,
+      "docs": [
+        "doc01",
+        "doc04",
+        "doc19",
+        "doc20"
+      ]
+    },
+    "campos_futuros_ok": {
+      "esperado": 71,
+      "correto": 71
+    }
+  },
+  "distribuicao_analise": {
+    "prioridade_critica": [],
+    "prioridade_alta": [],
+    "prioridade_media": [],
+    "prioridade_baixa": [
+      "doc01",
+      "doc02",
+      "doc03",
+      "doc04",
+      "doc05",
+      "doc06",
+      "doc07",
+      "doc08",
+      "doc09",
+      "doc10",
+      "doc11",
+      "doc12",
+      "doc13",
+      "doc14",
+      "doc15",
+      "doc16",
+      "doc17",
+      "doc18",
+      "doc19",
+      "doc20",
+      "doc21",
+      "doc22",
+      "doc23",
+      "doc24",
+      "doc25",
+      "doc26",
+      "doc27",
+      "doc29",
+      "doc30",
+      "doc31",
+      "doc32",
+      "doc33",
+      "doc34",
+      "doc35",
+      "doc36",
+      "doc37",
+      "doc38",
+      "doc39",
+      "doc40",
+      "doc41",
+      "doc42",
+      "doc44",
+      "doc45",
+      "doc46",
+      "doc47",
+      "doc48",
+      "doc49",
+      "doc50",
+      "doc51",
+      "doc52",
+      "doc53",
+      "doc54",
+      "doc55",
+      "doc56",
+      "doc57",
+      "doc59",
+      "doc60",
+      "doc61",
+      "doc62",
+      "doc63",
+      "doc64",
+      "doc65",
+      "doc66",
+      "doc67",
+      "doc68",
+      "doc69",
+      "doc70",
+      "doc71",
+      "doc72",
+      "doc73",
+      "doc74"
+    ],
+    "categoria_a": [
+      "doc01",
+      "doc04",
+      "doc16",
+      "doc19",
+      "doc20",
+      "doc25",
+      "doc59",
+      "doc60",
+      "doc64"
+    ],
+    "categoria_b": [
+      "doc02",
+      "doc03",
+      "doc05",
+      "doc06",
+      "doc07",
+      "doc08",
+      "doc10",
+      "doc12",
+      "doc14",
+      "doc15",
+      "doc17",
+      "doc18",
+      "doc21",
+      "doc24",
+      "doc26",
+      "doc27",
+      "doc29",
+      "doc30",
+      "doc31",
+      "doc32",
+      "doc36",
+      "doc37",
+      "doc38",
+      "doc39",
+      "doc40",
+      "doc42",
+      "doc45",
+      "doc46",
+      "doc48",
+      "doc49",
+      "doc50",
+      "doc52",
+      "doc54",
+      "doc55",
+      "doc56",
+      "doc57",
+      "doc61",
+      "doc63",
+      "doc65",
+      "doc66",
+      "doc68",
+      "doc70",
+      "doc71",
+      "doc72",
+      "doc74"
+    ],
+    "categoria_c": [
+      "doc09",
+      "doc11",
+      "doc13",
+      "doc22",
+      "doc23",
+      "doc33",
+      "doc34",
+      "doc35",
+      "doc41",
+      "doc44",
+      "doc47",
+      "doc51",
+      "doc53",
+      "doc62",
+      "doc67",
+      "doc69",
+      "doc73"
+    ]
+  },
+  "problemas_por_tipo": {
+    "estruturais": [],
+    "prioridade_incorreta": [],
+    "evidencias_incorretas": [
+      {
+        "doc": "doc02",
+        "problema": "Categoria incorreta: doc02 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc03",
+        "problema": "Categoria incorreta: doc03 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc05",
+        "problema": "Categoria incorreta: doc05 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc06",
+        "problema": "Categoria incorreta: doc06 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc07",
+        "problema": "Categoria incorreta: doc07 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc08",
+        "problema": "Categoria incorreta: doc08 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc14",
+        "problema": "Categoria incorreta: doc14 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc15",
+        "problema": "Categoria incorreta: doc15 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc17",
+        "problema": "Categoria incorreta: doc17 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc18",
+        "problema": "Categoria incorreta: doc18 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc21",
+        "problema": "Categoria incorreta: doc21 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc24",
+        "problema": "Categoria incorreta: doc24 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc26",
+        "problema": "Categoria incorreta: doc26 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc27",
+        "problema": "Categoria incorreta: doc27 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc29",
+        "problema": "Categoria incorreta: doc29 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc30",
+        "problema": "Categoria incorreta: doc30 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc31",
+        "problema": "Categoria incorreta: doc31 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc32",
+        "problema": "Categoria incorreta: doc32 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc36",
+        "problema": "Categoria incorreta: doc36 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc37",
+        "problema": "Categoria incorreta: doc37 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc38",
+        "problema": "Categoria incorreta: doc38 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc39",
+        "problema": "Categoria incorreta: doc39 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc40",
+        "problema": "Categoria incorreta: doc40 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc42",
+        "problema": "Categoria incorreta: doc42 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc45",
+        "problema": "Categoria incorreta: doc45 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc46",
+        "problema": "Categoria incorreta: doc46 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc48",
+        "problema": "Categoria incorreta: doc48 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc49",
+        "problema": "Categoria incorreta: doc49 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc50",
+        "problema": "Categoria incorreta: doc50 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc51",
+        "problema": "Categoria incorreta: doc51 deveria ser B, mas é C"
+      },
+      {
+        "doc": "doc52",
+        "problema": "Categoria incorreta: doc52 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc54",
+        "problema": "Categoria incorreta: doc54 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc55",
+        "problema": "Categoria incorreta: doc55 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc56",
+        "problema": "Categoria incorreta: doc56 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc57",
+        "problema": "Categoria incorreta: doc57 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc61",
+        "problema": "Categoria incorreta: doc61 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc65",
+        "problema": "Categoria incorreta: doc65 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc66",
+        "problema": "Categoria incorreta: doc66 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc70",
+        "problema": "Categoria incorreta: doc70 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc71",
+        "problema": "Categoria incorreta: doc71 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc72",
+        "problema": "Categoria incorreta: doc72 deveria ser C, mas é B"
+      },
+      {
+        "doc": "doc74",
+        "problema": "Categoria incorreta: doc74 deveria ser C, mas é B"
+      }
+    ],
+    "relacionamentos_ausentes": [
+      {
+        "doc": "doc15",
+        "problema": "Documento doc15 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc22",
+        "problema": "Documento doc22 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc23",
+        "problema": "Documento doc23 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc24",
+        "problema": "Documento doc24 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc26",
+        "problema": "Documento doc26 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc27",
+        "problema": "Documento doc27 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc29",
+        "problema": "Documento doc29 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc30",
+        "problema": "Documento doc30 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc31",
+        "problema": "Documento doc31 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc32",
+        "problema": "Documento doc32 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc33",
+        "problema": "Documento doc33 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc34",
+        "problema": "Documento doc34 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc35",
+        "problema": "Documento doc35 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc36",
+        "problema": "Documento doc36 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc37",
+        "problema": "Documento doc37 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc38",
+        "problema": "Documento doc38 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc39",
+        "problema": "Documento doc39 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc40",
+        "problema": "Documento doc40 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc41",
+        "problema": "Documento doc41 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc42",
+        "problema": "Documento doc42 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc44",
+        "problema": "Documento doc44 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc45",
+        "problema": "Documento doc45 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc46",
+        "problema": "Documento doc46 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc47",
+        "problema": "Documento doc47 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc48",
+        "problema": "Documento doc48 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc49",
+        "problema": "Documento doc49 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc50",
+        "problema": "Documento doc50 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc52",
+        "problema": "Documento doc52 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc53",
+        "problema": "Documento doc53 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc54",
+        "problema": "Documento doc54 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc55",
+        "problema": "Documento doc55 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc56",
+        "problema": "Documento doc56 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc57",
+        "problema": "Documento doc57 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc61",
+        "problema": "Documento doc61 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc62",
+        "problema": "Documento doc62 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc63",
+        "problema": "Documento doc63 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc66",
+        "problema": "Documento doc66 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc67",
+        "problema": "Documento doc67 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc68",
+        "problema": "Documento doc68 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc69",
+        "problema": "Documento doc69 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc70",
+        "problema": "Documento doc70 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc72",
+        "problema": "Documento doc72 sem relacionamentos aplicados"
+      },
+      {
+        "doc": "doc73",
+        "problema": "Documento doc73 sem relacionamentos aplicados"
+      }
+    ],
+    "campos_futuros_incorretos": []
+  },
+  "auditoria_detalhada": [
+    {
+      "arquivo": "doc01-actor_index.json",
+      "doc_id": "doc01",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc01-actor_index.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento nuclear doc01 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc01 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [
+          "doc19",
+          "doc20",
+          "doc04",
+          "doc20"
+        ],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "criminal_orcrim",
+            "relacionados": [
+              "doc20",
+              "doc20",
+              "doc59",
+              "doc60"
+            ]
+          }
+        ],
+        "total_relacionamentos": 6,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc01 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc02-anexo_degradacao.json",
+      "doc_id": "doc02",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc02-anexo_degradacao.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc02 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc02 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "dagoberto",
+            "relacionados": [
+              "doc03",
+              "doc10",
+              "doc11",
+              "doc12"
+            ]
+          }
+        ],
+        "total_relacionamentos": 4,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc02 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc03-anexo_fluxo_dinheiro.json",
+      "doc_id": "doc03",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc03-anexo_fluxo_dinheiro.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc03 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc03 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "dagoberto",
+            "relacionados": [
+              "doc02",
+              "doc10",
+              "doc11",
+              "doc12"
+            ]
+          }
+        ],
+        "total_relacionamentos": 4,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc03 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc04-anexo_tabela_violacoes.json",
+      "doc_id": "doc04",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc04-anexo_tabela_violacoes.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento nuclear doc04 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc04 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [
+          "doc19",
+          "doc20",
+          "doc01"
+        ],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc04 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc05-artefatos.json",
+      "doc_id": "doc05",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc05-artefatos.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc05 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc05 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "evolucao",
+            "relacionados": [
+              "doc06",
+              "doc07",
+              "doc08"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc05 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc06-AvRJGrok-01.json",
+      "doc_id": "doc06",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc06-AvRJGrok-01.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc06 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc06 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "evolucao",
+            "relacionados": [
+              "doc05",
+              "doc07",
+              "doc08"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc06 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc07-AvRJGrok-02.json",
+      "doc_id": "doc07",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc07-AvRJGrok-02.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc07 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc07 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "evolucao",
+            "relacionados": [
+              "doc05",
+              "doc06",
+              "doc08"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc07 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc08-AvRJGrok-03.json",
+      "doc_id": "doc08",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc08-AvRJGrok-03.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc08 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc08 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "evolucao",
+            "relacionados": [
+              "doc05",
+              "doc06",
+              "doc07"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc08 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc09-chroma.json",
+      "doc_id": "doc09",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc09-chroma.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc09 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "comunicacoes_pl",
+            "relacionados": [
+              "doc10",
+              "doc18"
+            ]
+          }
+        ],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 100.0,
+      "problemas_criticos": [],
+      "problemas_menores": [],
+      "status_auditoria": "CONFORME"
+    },
+    {
+      "arquivo": "doc10-ComunicacoeseAlertas-FaltaAtuacaoPLConsol.json",
+      "doc_id": "doc10",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc10-ComunicacoeseAlertas-FaltaAtuacaoPLConsol.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc10 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "B",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "dagoberto",
+            "relacionados": [
+              "doc02",
+              "doc03",
+              "doc11",
+              "doc12"
+            ]
+          },
+          {
+            "cluster": "comunicacoes_pl",
+            "relacionados": [
+              "doc09",
+              "doc18"
+            ]
+          }
+        ],
+        "total_relacionamentos": 6,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 100.0,
+      "problemas_criticos": [],
+      "problemas_menores": [],
+      "status_auditoria": "CONFORME"
+    },
+    {
+      "arquivo": "doc11-ContratoRecupJudicial.json",
+      "doc_id": "doc11",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc11-ContratoRecupJudicial.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc11 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "dagoberto",
+            "relacionados": [
+              "doc02",
+              "doc03",
+              "doc10",
+              "doc12"
+            ]
+          }
+        ],
+        "total_relacionamentos": 4,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 100.0,
+      "problemas_criticos": [],
+      "problemas_menores": [],
+      "status_auditoria": "CONFORME"
+    },
+    {
+      "arquivo": "doc12-DagobertoPadraoPL.-Diversos.json",
+      "doc_id": "doc12",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc12-DagobertoPadraoPL.-Diversos.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc12 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "B",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "dagoberto",
+            "relacionados": [
+              "doc02",
+              "doc03",
+              "doc10",
+              "doc11"
+            ]
+          },
+          {
+            "cluster": "mega_docs",
+            "relacionados": [
+              "doc13",
+              "doc14",
+              "doc17"
+            ]
+          }
+        ],
+        "total_relacionamentos": 7,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 100.0,
+      "problemas_criticos": [],
+      "problemas_menores": [],
+      "status_auditoria": "CONFORME"
+    },
+    {
+      "arquivo": "doc13-data_level0.json",
+      "doc_id": "doc13",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc13-data_level0.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc13 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "mega_docs",
+            "relacionados": [
+              "doc12",
+              "doc14",
+              "doc17"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 100.0,
+      "problemas_criticos": [],
+      "problemas_menores": [],
+      "status_auditoria": "CONFORME"
+    },
+    {
+      "arquivo": "doc14-deep_memory.json",
+      "doc_id": "doc14",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc14-deep_memory.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc14 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc14 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "mega_docs",
+            "relacionados": [
+              "doc12",
+              "doc13",
+              "doc17"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc14 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc15-Dez2023NegociacaoInicialCtoRJ.json",
+      "doc_id": "doc15",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc15-Dez2023NegociacaoInicialCtoRJ.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc15 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc15 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc15 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc15 deveria ser C, mas é B",
+        "Documento doc15 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc16-DOCCEN-HistoricoContexto.json",
+      "doc_id": "doc16",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc16-DOCCEN-HistoricoContexto.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento probatório direto doc16 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc16 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "mpf_inquerito",
+            "relacionados": [
+              "doc25"
+            ]
+          }
+        ],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc16 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc17-documentosbaseconhecimento.json",
+      "doc_id": "doc17",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc17-documentosbaseconhecimento.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc17 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc17 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "mega_docs",
+            "relacionados": [
+              "doc12",
+              "doc13",
+              "doc14"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc17 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc18-EstrategiasePilaresJun25Consol.json",
+      "doc_id": "doc18",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc18-EstrategiasePilaresJun25Consol.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc18 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc18 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "comunicacoes_pl",
+            "relacionados": [
+              "doc09",
+              "doc10"
+            ]
+          }
+        ],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc18 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc19-evidence_index.json",
+      "doc_id": "doc19",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc19-evidence_index.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento nuclear doc19 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc19 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [
+          "doc20",
+          "doc01",
+          "doc04"
+        ],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc19 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc20-evidencias_all.json",
+      "doc_id": "doc20",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc20-evidencias_all.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento nuclear doc20 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc20 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [
+          "doc19",
+          "doc01",
+          "doc04",
+          "doc01"
+        ],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "criminal_orcrim",
+            "relacionados": [
+              "doc01",
+              "doc01",
+              "doc59",
+              "doc60"
+            ]
+          }
+        ],
+        "total_relacionamentos": 6,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc20 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc21-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs01.json",
+      "doc_id": "doc21",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc21-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs01.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc21 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc21 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "ect_lawfare",
+            "relacionados": [
+              "doc71",
+              "doc74"
+            ]
+          }
+        ],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc21 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc22-GitHubRawFilesAnalysis-Claude.json",
+      "doc_id": "doc22",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc22-GitHubRawFilesAnalysis-Claude.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc22 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc22 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc22 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc23-go2b_analyses.json",
+      "doc_id": "doc23",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc23-go2b_analyses.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc23 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc23 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc23 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc24-go2b_embeddings_meta.json",
+      "doc_id": "doc24",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc24-go2b_embeddings_meta.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc24 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc24 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc24 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc24 deveria ser C, mas é B",
+        "Documento doc24 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc25-go2b_faiss.json",
+      "doc_id": "doc25",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc25-go2b_faiss.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento probatório direto doc25 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc25 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "mpf_inquerito",
+            "relacionados": [
+              "doc16"
+            ]
+          }
+        ],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc25 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc26-go2b_kb.json",
+      "doc_id": "doc26",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc26-go2b_kb.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc26 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc26 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc26 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc26 deveria ser C, mas é B",
+        "Documento doc26 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc27-go2b_kb_for_bm25_cache.json",
+      "doc_id": "doc27",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc27-go2b_kb_for_bm25_cache.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc27 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc27 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc27 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc27 deveria ser C, mas é B",
+        "Documento doc27 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc29-go2b_knowledge_base.json",
+      "doc_id": "doc29",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc29-go2b_knowledge_base.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc29 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc29 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc29 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc29 deveria ser C, mas é B",
+        "Documento doc29 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc30-go2b_lexical_index.json",
+      "doc_id": "doc30",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc30-go2b_lexical_index.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc30 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc30 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc30 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc30 deveria ser C, mas é B",
+        "Documento doc30 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc31-go2b_lookup.json",
+      "doc_id": "doc31",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc31-go2b_lookup.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc31 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc31 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc31 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc31 deveria ser C, mas é B",
+        "Documento doc31 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc32-go2b_memoria_institucional.json",
+      "doc_id": "doc32",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc32-go2b_memoria_institucional.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc32 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc32 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc32 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc32 deveria ser C, mas é B",
+        "Documento doc32 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc33-go2b_vectorizer_config.json",
+      "doc_id": "doc33",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc33-go2b_vectorizer_config.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc33 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc33 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc33 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc34-Go2b-InstitucionalGPT.json",
+      "doc_id": "doc34",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc34-Go2b-InstitucionalGPT.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc34 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc34 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc34 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc35-header.json",
+      "doc_id": "doc35",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc35-header.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc35 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc35 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc35 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc36-ImagensQuestoesResponder.jpg.json",
+      "doc_id": "doc36",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc36-ImagensQuestoesResponder.jpg.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc36 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc36 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc36 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc36 deveria ser C, mas é B",
+        "Documento doc36 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc37-index_metadata.json",
+      "doc_id": "doc37",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc37-index_metadata.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc37 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc37 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc37 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc37 deveria ser C, mas é B",
+        "Documento doc37 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc38-knowledge_index.json",
+      "doc_id": "doc38",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc38-knowledge_index.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc38 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc38 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc38 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc38 deveria ser C, mas é B",
+        "Documento doc38 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc39-LegalDocumentAnalysisProtocol-Claude.json",
+      "doc_id": "doc39",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc39-LegalDocumentAnalysisProtocol-Claude.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc39 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc39 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc39 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc39 deveria ser C, mas é B",
+        "Documento doc39 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc40-LegalDocumentMatrixAnalysis-Claude.json",
+      "doc_id": "doc40",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc40-LegalDocumentMatrixAnalysis-Claude.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc40 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc40 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc40 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc40 deveria ser C, mas é B",
+        "Documento doc40 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc41-length.json",
+      "doc_id": "doc41",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc41-length.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc41 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc41 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc41 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc42-link_lists.json",
+      "doc_id": "doc42",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc42-link_lists.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc42 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc42 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc42 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc42 deveria ser C, mas é B",
+        "Documento doc42 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc44-matrix_summary.json",
+      "doc_id": "doc44",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc44-matrix_summary.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc44 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc44 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc44 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc45-matriz_unificada_go2b_v7.json",
+      "doc_id": "doc45",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc45-matriz_unificada_go2b_v7.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc45 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc45 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc45 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc45 deveria ser C, mas é B",
+        "Documento doc45 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc46-MEGA_CONTEXT.json",
+      "doc_id": "doc46",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc46-MEGA_CONTEXT.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc46 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc46 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc46 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc46 deveria ser C, mas é B",
+        "Documento doc46 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc47-memoriainstitucional.json",
+      "doc_id": "doc47",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc47-memoriainstitucional.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc47 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc47 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc47 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc48-memory_config.json",
+      "doc_id": "doc48",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc48-memory_config.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc48 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc48 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc48 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc48 deveria ser C, mas é B",
+        "Documento doc48 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc49-ContextoeHistoricoImp.json",
+      "doc_id": "doc49",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc49-ContextoeHistoricoImp.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc49 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc49 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc49 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc49 deveria ser C, mas é B",
+        "Documento doc49 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc50-chatsclaudeprojeto.json",
+      "doc_id": "doc50",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc50-chatsclaudeprojeto.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc50 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc50 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc50 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc50 deveria ser C, mas é B",
+        "Documento doc50 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc51-MPF-JuntadaAutosECT-Completo-vs25082025.json",
+      "doc_id": "doc51",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc51-MPF-JuntadaAutosECT-Completo-vs25082025.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "ALTA",
+        "correto": false,
+        "justificativa_deteccao": "Documento estratégico doc51 deve ser ALTA",
+        "problemas": [
+          "ERRO: doc51 deveria ser ALTA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "B",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc51 deveria ser B, mas é C"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "ERRO: doc51 deveria ser ALTA, mas é BAIXA",
+        "Categoria incorreta: doc51 deveria ser B, mas é C"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc52-PadraoAtuacaoPL-Dagoberto-Exemplo.json",
+      "doc_id": "doc52",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc52-PadraoAtuacaoPL-Dagoberto-Exemplo.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc52 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc52 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc52 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc52 deveria ser C, mas é B",
+        "Documento doc52 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc53-Peticao09062025-1039604-94.2023.8.26.0405.json",
+      "doc_id": "doc53",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc53-Peticao09062025-1039604-94.2023.8.26.0405.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc53 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc53 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc53 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc54-PosicionamentoPL-QuestionamentosAgo2024.json",
+      "doc_id": "doc54",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc54-PosicionamentoPL-QuestionamentosAgo2024.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc54 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc54 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc54 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc54 deveria ser C, mas é B",
+        "Documento doc54 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc55-PosicionamentoPL-QuestionamentosJul2024.json",
+      "doc_id": "doc55",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc55-PosicionamentoPL-QuestionamentosJul2024.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc55 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc55 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc55 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc55 deveria ser C, mas é B",
+        "Documento doc55 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc56-PosicionamentoPL-QuestionamentosSet2024.json",
+      "doc_id": "doc56",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc56-PosicionamentoPL-QuestionamentosSet2024.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc56 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc56 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc56 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc56 deveria ser C, mas é B",
+        "Documento doc56 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc57-PosicionamentoPL-SuspensaoQuestionados.json",
+      "doc_id": "doc57",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc57-PosicionamentoPL-SuspensaoQuestionados.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc57 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc57 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc57 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc57 deveria ser C, mas é B",
+        "Documento doc57 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc59-ProcessoqueResultouApropriacaoCredito-Dagoberto.json",
+      "doc_id": "doc59",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc59-ProcessoqueResultouApropriacaoCredito-Dagoberto.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento probatório direto doc59 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc59 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "criminal_orcrim",
+            "relacionados": [
+              "doc01",
+              "doc20",
+              "doc60"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc59 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc60-ProcessoqueResultouApropriacaoCredito-Dirceu.json",
+      "doc_id": "doc60",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc60-ProcessoqueResultouApropriacaoCredito-Dirceu.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento probatório direto doc60 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc60 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "criminal_orcrim",
+            "relacionados": [
+              "doc01",
+              "doc20",
+              "doc59"
+            ]
+          }
+        ],
+        "total_relacionamentos": 3,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc60 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc61-proposed_architecture.json",
+      "doc_id": "doc61",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc61-proposed_architecture.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc61 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc61 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc61 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc61 deveria ser C, mas é B",
+        "Documento doc61 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc62-relatorio_fases_1_2_3_4_consolidadoCompletoTemas.json",
+      "doc_id": "doc62",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc62-relatorio_fases_1_2_3_4_consolidadoCompletoTemas.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc62 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc62 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc62 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b.json",
+      "doc_id": "doc63",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "ALTA",
+        "correto": false,
+        "justificativa_deteccao": "Documento estratégico doc63 deve ser ALTA",
+        "problemas": [
+          "ERRO: doc63 deveria ser ALTA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "B",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc63 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "ERRO: doc63 deveria ser ALTA, mas é BAIXA",
+        "Documento doc63 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc64-RelatorioTrocaDNS19052025.json",
+      "doc_id": "doc64",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc64-RelatorioTrocaDNS19052025.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "CRITICA",
+        "correto": false,
+        "justificativa_deteccao": "Documento probatório direto doc64 deve ser CRÍTICA",
+        "problemas": [
+          "ERRO CRÍTICO: doc64 deveria ser CRÍTICA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "A",
+        "categoria_esperada": "A",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "dns_tecnico",
+            "relacionados": [
+              "doc65"
+            ]
+          }
+        ],
+        "total_relacionamentos": 1,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [
+        "ERRO CRÍTICO: doc64 deveria ser CRÍTICA, mas é BAIXA"
+      ],
+      "problemas_menores": [],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc65-temporal_index.json",
+      "doc_id": "doc65",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc65-temporal_index.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc65 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc65 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "dns_tecnico",
+            "relacionados": [
+              "doc64"
+            ]
+          }
+        ],
+        "total_relacionamentos": 1,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc65 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc66-memory_prompt_claude.json",
+      "doc_id": "doc66",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc66-memory_prompt_claude.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc66 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc66 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc66 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc66 deveria ser C, mas é B",
+        "Documento doc66 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc67-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs02.json",
+      "doc_id": "doc67",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc67-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs02.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc67 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc67 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc67 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc68-RoteiroeAnexosTodos26082025.json",
+      "doc_id": "doc68",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc68-RoteiroeAnexosTodos26082025.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "ALTA",
+        "correto": false,
+        "justificativa_deteccao": "Documento estratégico doc68 deve ser ALTA",
+        "problemas": [
+          "ERRO: doc68 deveria ser ALTA, mas é BAIXA"
+        ]
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "B",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc68 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "ERRO: doc68 deveria ser ALTA, mas é BAIXA",
+        "Documento doc68 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc69-BaseRevisaoInteligence.json",
+      "doc_id": "doc69",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc69-BaseRevisaoInteligence.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc69 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc69 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc69 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc70-RecuperacaoJudicialProcessosJudicialAnalise-ComProcesso.json",
+      "doc_id": "doc70",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc70-RecuperacaoJudicialProcessosJudicialAnalise-ComProcesso.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc70 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc70 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc70 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc70 deveria ser C, mas é B",
+        "Documento doc70 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc71-MEMORY_GO2B_RECONCILIADO_API_v5.json",
+      "doc_id": "doc71",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc71-MEMORY_GO2B_RECONCILIADO_API_v5.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc71 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc71 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "ect_lawfare",
+            "relacionados": [
+              "doc21",
+              "doc74"
+            ]
+          }
+        ],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc71 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc72-Artefatos_AvaliacaoMegajonsReconciliada.json",
+      "doc_id": "doc72",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc72-Artefatos_AvaliacaoMegajonsReconciliada.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc72 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc72 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc72 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 60.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc72 deveria ser C, mas é B",
+        "Documento doc72 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "NAO_CONFORME"
+    },
+    {
+      "arquivo": "doc73-ModeloInteligenciaCorrelacoesConfianca.json",
+      "doc_id": "doc73",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc73-ModeloInteligenciaCorrelacoesConfianca.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc73 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "C",
+        "categoria_esperada": "C",
+        "correto": true,
+        "estrutura_adequada": true,
+        "problemas": []
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [],
+        "total_relacionamentos": 0,
+        "correto": false,
+        "problemas": [
+          "Documento doc73 sem relacionamentos aplicados"
+        ]
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Documento doc73 sem relacionamentos aplicados"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    },
+    {
+      "arquivo": "doc74-fusaoartefatos_a_b_c_Incompletovsclaude.json",
+      "doc_id": "doc74",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc74-fusaoartefatos_a_b_c_Incompletovsclaude.json",
+      "existe": true,
+      "carregamento_ok": true,
+      "erro_carregamento": null,
+      "auditoria_estrutura": {
+        "campos_ingestao_presentes": [
+          "prioridade_processual",
+          "relevancia_juridica",
+          "evidencias",
+          "relacionamentos",
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_ingestao_ausentes": [],
+        "campos_originais_preservados": [
+          "id_documento",
+          "categoria",
+          "descricao_adriano",
+          "referencia_md_acessivel",
+          "referencia_md_omniconvert",
+          "analise_ia_real"
+        ],
+        "campos_originais_perdidos": [],
+        "integridade_estrutural": true,
+        "problemas_estruturais": []
+      },
+      "auditoria_prioridade": {
+        "valor_detectado": "BAIXA",
+        "valor_esperado": "MEDIA_OU_BAIXA",
+        "correto": true,
+        "justificativa_deteccao": "Documento doc74 pode ser MEDIA ou BAIXA",
+        "problemas": []
+      },
+      "auditoria_evidencias": {
+        "categoria_detectada": "B",
+        "categoria_esperada": "C",
+        "correto": false,
+        "estrutura_adequada": true,
+        "problemas": [
+          "Categoria incorreta: doc74 deveria ser C, mas é B"
+        ]
+      },
+      "auditoria_relacionamentos": {
+        "correlacoes_nucleares_presentes": [],
+        "correlacoes_nucleares_ausentes": [],
+        "clusters_aplicados": [
+          {
+            "cluster": "ect_lawfare",
+            "relacionados": [
+              "doc21",
+              "doc71"
+            ]
+          }
+        ],
+        "total_relacionamentos": 2,
+        "correto": true,
+        "problemas": []
+      },
+      "auditoria_campos_futuros": {
+        "campos_futuros_corretos": [
+          "analise_contratos_bancarios",
+          "execucoes_socios_go2b",
+          "nexo_causal_ect"
+        ],
+        "campos_futuros_incorretos": [],
+        "correto": true,
+        "problemas": []
+      },
+      "score_conformidade": 80.0,
+      "problemas_criticos": [],
+      "problemas_menores": [
+        "Categoria incorreta: doc74 deveria ser C, mas é B"
+      ],
+      "status_auditoria": "PARCIALMENTE_CONFORME"
+    }
+  ],
+  "recomendacoes_correcao": [
+    "🚨 CRÍTICO: Reprocessar documentos nucleares com prioridade CRÍTICA"
+  ],
+  "status_final_auditoria": "INGESTAO_REQUER_CORRECOES"
+}
