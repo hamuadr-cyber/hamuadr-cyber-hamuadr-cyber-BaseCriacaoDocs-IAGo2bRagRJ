@@ -1,0 +1,5406 @@
+{
+  "meta": {
+    "timestamp": "2025-09-09T11:14:45.826895",
+    "total_arquivos_esperados": 71,
+    "base_path": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc",
+    "versao_validacao": "2.0 - Estruturação V2",
+    "caso_juridico": "Recuperação Judicial 1039604-94.2023.8.26.0405",
+    "inquerito_mpf": "1.16.000.001860/2025-10"
+  },
+  "resumo_executivo": {
+    "arquivos_encontrados": 71,
+    "arquivos_validos": 71,
+    "aprovados": 71,
+    "aprovados_ressalvas": 0,
+    "reprovados": 0,
+    "score_medio": 100.0,
+    "tamanho_total_mb": 22.159339904785156,
+    "problemas_criticos_total": 0
+  },
+  "validacao_estrutural_consolidada": {
+    "campos_obrigatorios_ok": 71,
+    "campos_futuros_ok": 71,
+    "categorias_corretas": 71,
+    "ids_corretos": 71,
+    "descricoes_especificas": 71,
+    "campos_preservados_ok": 71
+  },
+  "distribuicao_categorias": {
+    "A": {
+      "esperado": 7,
+      "validado": 7,
+      "incorreto": 0
+    },
+    "B": {
+      "esperado": 7,
+      "validado": 7,
+      "incorreto": 0
+    },
+    "C": {
+      "esperado": 2,
+      "validado": 2,
+      "incorreto": 0
+    },
+    "D": {
+      "esperado": 4,
+      "validado": 4,
+      "incorreto": 0
+    },
+    "E": {
+      "esperado": 6,
+      "validado": 6,
+      "incorreto": 0
+    },
+    "F": {
+      "esperado": 11,
+      "validado": 11,
+      "incorreto": 0
+    },
+    "G": {
+      "esperado": 3,
+      "validado": 3,
+      "incorreto": 0
+    },
+    "H": {
+      "esperado": 5,
+      "validado": 5,
+      "incorreto": 0
+    },
+    "I": {
+      "esperado": 26,
+      "validado": 26,
+      "incorreto": 0
+    }
+  },
+  "arquivos_detalhados": [
+    {
+      "arquivo": "doc01-actor_index.json",
+      "doc_id": "doc01",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc01-actor_index.json",
+      "existe": true,
+      "tamanho_bytes": 34081,
+      "hash_sha256": "3fc6c12d81e8a400f476fb31379102f7a047d194c20441f8b29dfb833b4b9cb7",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc01-actor_index",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "MAPEAMENTO NUCLEAR DE ATORES PROCESSUAIS: Análise especializada identificando estrutura criminosa centrada no impedimento judicial absoluto do Juiz Marcello Perino (parentesco comercial R$ 17 milhões)..."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc02-anexo_degradacao.json",
+      "doc_id": "doc02",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc02-anexo_degradacao.json",
+      "existe": true,
+      "tamanho_bytes": 117822,
+      "hash_sha256": "071859f5804a394b36060865e6f588f636432bae865f36c2c670ce2829caea6c",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "H",
+        "categoria_encontrada": "H",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc02-anexo_degradacao",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Imagem gerada em conversa que tenta tornar de forma visual o processo de degradação dos serviços PL Consultoria e Adm. Judicial."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc03-anexo_fluxo_dinheiro.json",
+      "doc_id": "doc03",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc03-anexo_fluxo_dinheiro.json",
+      "existe": true,
+      "tamanho_bytes": 67585,
+      "hash_sha256": "3e1199800fe3229d2a94d2b69a12b3f1d4a2abc51490ea2e3ae176675c80e12b",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "H",
+        "categoria_encontrada": "H",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc03-anexo_fluxo_dinheiro",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Imagem gerada em conversa que tenta tornar de forma visual o processo de degradação financeira e fluxo do dinheiro perdido pela Go2b."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc04-anexo_tabela_violacoes.json",
+      "doc_id": "doc04",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc04-anexo_tabela_violacoes.json",
+      "existe": true,
+      "tamanho_bytes": 170648,
+      "hash_sha256": "8a999e0225add4ccdea1d8272cc8d294a4f012a7512669d7e66ecc2c2649920a",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc04-anexo_tabela_violacoes",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "MATRIZ CONSOLIDADA DE 95+ VIOLAÇÕES PROCESSUAIS: Sistematização jurídica de infrações constitucionais, falimentares e penais. Documenta negativa de prestação jurisdicional (80+ dias), apropriação qual..."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc05-artefatos.json",
+      "doc_id": "doc05",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc05-artefatos.json",
+      "existe": true,
+      "tamanho_bytes": 70895,
+      "hash_sha256": "8aebba0c239a4f8b3888dd256db080102e1041d8b7f1f5bfb18c7ad8d9d5f0d2",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc05-artefatos",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Artefatos, conversas, e chats com claude, gpt realizando análise, construção de raciocinio sobre o caso, importante pois demonstra a linha racional e de tendimento que foi adotado"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc06-AvRJGrok-01.json",
+      "doc_id": "doc06",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc06-AvRJGrok-01.json",
+      "existe": true,
+      "tamanho_bytes": 134998,
+      "hash_sha256": "ace50404c9cc6efe52b23ce1e7f6d7927961c418d08766096268d5a34b91697e",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "G",
+        "categoria_encontrada": "G",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc06-AvRJGrok-01",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Artefatos, conversas, e chats com Grok, gpt realizando análise, construção de raciocinio sobre legislação aplicavél em Recuperações judicias e possiveis irregularidades e saidas legais"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc07-AvRJGrok-02.json",
+      "doc_id": "doc07",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc07-AvRJGrok-02.json",
+      "existe": true,
+      "tamanho_bytes": 66729,
+      "hash_sha256": "1a6d29c58a7decadf0fd15e5f5abd60784d04a88dba70315d6f0804ee0e31208",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "G",
+        "categoria_encontrada": "G",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc07-AvRJGrok-02",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Artefatos, conversas, e chats com Grok, gpt realizando análise, construção de raciocinio sobre legislação aplicavél em Recuperações judicias e possiveis irregularidades e saidas legais"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc08-AvRJGrok-03.json",
+      "doc_id": "doc08",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc08-AvRJGrok-03.json",
+      "existe": true,
+      "tamanho_bytes": 61954,
+      "hash_sha256": "d49c471c4b4cac54139c20207ee4720d02e2a8f8d4fab023e5db388c1bbedddc",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "G",
+        "categoria_encontrada": "G",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc08-AvRJGrok-03",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Artefatos, conversas, e chats com Grok, gpt realizando análise, construção de raciocinio sobre legislação aplicavél em Recuperações judicias e possiveis irregularidades e saidas legais"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc09-chroma.json",
+      "doc_id": "doc09",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc09-chroma.json",
+      "existe": true,
+      "tamanho_bytes": 32847,
+      "hash_sha256": "2eab712bf6b61c0f30d067e00d9d16093cc03695f841bfe0bf93d3701c69fd0f",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc09-chroma",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "INFRAESTRUTURA VETORIAL ESPECIALIZADA: Análise retrospectiva do sistema ChromaDB com 1.245 embeddings e 4.980 metadados. Identifica limitações na recuperação jurídica por configuração genérica inadequ..."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc10-ComunicacoeseAlertas-FaltaAtuacaoPLConsol.json",
+      "doc_id": "doc10",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc10-ComunicacoeseAlertas-FaltaAtuacaoPLConsol.json",
+      "existe": true,
+      "tamanho_bytes": 151144,
+      "hash_sha256": "d290fa049bf402c5fd32d9432a5838fd52157b322cdf40e6ca131219f6955936",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "B",
+        "categoria_encontrada": "B",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc10-ComunicacoeseAlertas-FaltaAtuacaoPLConsol",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Diversos exemplos de comunicações realizadas a PL sobre notificações e citações pedindo atuação. Enviados pelo Adriano Hamu, CEO e pelo Representante Juridico Interno da Go2b. Ponto Nota: Um ponto par..."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc11-ContratoRecupJudicial.json",
+      "doc_id": "doc11",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc11-ContratoRecupJudicial.json",
+      "existe": true,
+      "tamanho_bytes": 90218,
+      "hash_sha256": "9ea032d2fd564b4ad840e499db1f9537ca2718e25e5cb0a437632de3fb7da6cd",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "A",
+        "categoria_encontrada": "A",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc11-ContratoRecupJudicial",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Contrato Inicial Estabelecido com Pl Consultoria para Serviços Recuperação Judicial para Go2b, importante pois possivel identificar o que foi contratado, e o serviço real prestado evidenciando dolo co..."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc12-DagobertoPadraoPL.-Diversos.json",
+      "doc_id": "doc12",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc12-DagobertoPadraoPL.-Diversos.json",
+      "existe": true,
+      "tamanho_bytes": 4325801,
+      "hash_sha256": "b1a2e1ff9ae01477ae82373fcfb4d483c62049d9d20060d12db06c94bdc0db54",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "B",
+        "categoria_encontrada": "B",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc12-DagobertoPadraoPL.-Diversos",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Diversas Comunicações Dagoberto que demonstram padrão Comportamento e atuação, degradando atendimento."
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc13-data_level0.json",
+      "doc_id": "doc13",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc13-data_level0.json",
+      "existe": true,
+      "tamanho_bytes": 843106,
+      "hash_sha256": "afb7c8463228eb4388b61fbe7cc7f7e5f963070229e1ef1da200105498381be1",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc13-data_level0",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc14-deep_memory.json",
+      "doc_id": "doc14",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc14-deep_memory.json",
+      "existe": true,
+      "tamanho_bytes": 667055,
+      "hash_sha256": "d7c0bb62eabed2725956d84cb9b4d8443aecddf8964ee9e21f312df47a2cb267",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc14-deep_memory",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc15-Dez2023NegociacaoInicialCtoRJ.json",
+      "doc_id": "doc15",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc15-Dez2023NegociacaoInicialCtoRJ.json",
+      "existe": true,
+      "tamanho_bytes": 556019,
+      "hash_sha256": "7f56bbc34d9449a90ebf4ed0f51126c47fe7c4d59fc79bd315fdfdced9d716e2",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "E",
+        "categoria_encontrada": "E",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc15-Dez2023NegociacaoInicialCtoRJ",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc16-DOCCEN-HistoricoContexto.json",
+      "doc_id": "doc16",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc16-DOCCEN-HistoricoContexto.json",
+      "existe": true,
+      "tamanho_bytes": 436899,
+      "hash_sha256": "510d056a6d0d706e6a5994cd3de5ad892431ed33681ca585fadd2edea3f8b436",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "E",
+        "categoria_encontrada": "E",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc16-DOCCEN-HistoricoContexto",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc17-documentosbaseconhecimento.json",
+      "doc_id": "doc17",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc17-documentosbaseconhecimento.json",
+      "existe": true,
+      "tamanho_bytes": 1642693,
+      "hash_sha256": "d517026f3d9b474ed4cc8c80ed4d0df198d7b728cd67afe7e38fff9daf77d66f",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "E",
+        "categoria_encontrada": "E",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc17-documentosbaseconhecimento",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc18-EstrategiasePilaresJun25Consol.json",
+      "doc_id": "doc18",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc18-EstrategiasePilaresJun25Consol.json",
+      "existe": true,
+      "tamanho_bytes": 362335,
+      "hash_sha256": "660fdfb529eda1eb348614425377f3ad1ad42c385e7b83fb9eba3b7d2cab7ee1",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "D",
+        "categoria_encontrada": "D",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc18-EstrategiasePilaresJun25Consol",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc19-evidence_index.json",
+      "doc_id": "doc19",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc19-evidence_index.json",
+      "existe": true,
+      "tamanho_bytes": 176432,
+      "hash_sha256": "aa91ef7cb88dacb60d7ac382b1639e8b79de49c2f001b50eb38f6e141361988a",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc19-evidence_index",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc20-evidencias_all.json",
+      "doc_id": "doc20",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc20-evidencias_all.json",
+      "existe": true,
+      "tamanho_bytes": 182239,
+      "hash_sha256": "909866dbf1949af1c9abe3a2c4c0b94c993d87deb56b1bf6f3f7f7494aaf2b19",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc20-evidencias_all",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc21-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs01.json",
+      "doc_id": "doc21",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc21-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs01.json",
+      "existe": true,
+      "tamanho_bytes": 670494,
+      "hash_sha256": "7500dd9e37950eb68b9c4b12daadc90a0d36adb11fb1542e7078895eba7f94c1",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc21-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs01",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc22-GitHubRawFilesAnalysis-Claude.json",
+      "doc_id": "doc22",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc22-GitHubRawFilesAnalysis-Claude.json",
+      "existe": true,
+      "tamanho_bytes": 130721,
+      "hash_sha256": "6642192e8f6696e1a0e57913e5d70277e961ef4b3d4b8f35ba7c02ba9ed47e60",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc22-GitHubRawFilesAnalysis-Claude",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc23-go2b_analyses.json",
+      "doc_id": "doc23",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc23-go2b_analyses.json",
+      "existe": true,
+      "tamanho_bytes": 127641,
+      "hash_sha256": "4d0112f7fa86215e3446e7f98b798ffbae9903f100c72afbb93ca9ed804be122",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc23-go2b_analyses",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc24-go2b_embeddings_meta.json",
+      "doc_id": "doc24",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc24-go2b_embeddings_meta.json",
+      "existe": true,
+      "tamanho_bytes": 118899,
+      "hash_sha256": "3571ae430e37626e9c971cd3fe77c2461e814803a4bbc07ca3cd863a720183d4",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "H",
+        "categoria_encontrada": "H",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc24-go2b_embeddings_meta",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc25-go2b_faiss.json",
+      "doc_id": "doc25",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc25-go2b_faiss.json",
+      "existe": true,
+      "tamanho_bytes": 123819,
+      "hash_sha256": "1cfbb28ff90ace438c3b775fe6cc43a81c88862971e52eb3d7d6021ffe5efff5",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc25-go2b_faiss",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc26-go2b_kb.json",
+      "doc_id": "doc26",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc26-go2b_kb.json",
+      "existe": true,
+      "tamanho_bytes": 41270,
+      "hash_sha256": "ea56e853be69b87ca1e797a730ba65bcd615eed8736e2aedf012707dbf261d2d",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc26-go2b_kb",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc27-go2b_kb_for_bm25_cache.json",
+      "doc_id": "doc27",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc27-go2b_kb_for_bm25_cache.json",
+      "existe": true,
+      "tamanho_bytes": 80487,
+      "hash_sha256": "6e1ceccea98a011aa1ee6c592be315bd574fd26313e8360f96f96887d795a61e",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc27-go2b_kb_for_bm25_cache",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc29-go2b_knowledge_base.json",
+      "doc_id": "doc29",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc29-go2b_knowledge_base.json",
+      "existe": true,
+      "tamanho_bytes": 76988,
+      "hash_sha256": "0c8992f4e1a63f3f177ed1e25e5b84f8a4a3654761deb7e3fa4067e0956edd96",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc29-go2b_knowledge_base",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc30-go2b_lexical_index.json",
+      "doc_id": "doc30",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc30-go2b_lexical_index.json",
+      "existe": true,
+      "tamanho_bytes": 58504,
+      "hash_sha256": "457707e666f1e238336e68adddbc60306ef1664bf9858b45261281495a9485e6",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc30-go2b_lexical_index",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc31-go2b_lookup.json",
+      "doc_id": "doc31",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc31-go2b_lookup.json",
+      "existe": true,
+      "tamanho_bytes": 60959,
+      "hash_sha256": "faa91bc9d0f8da5386302f8c76f5f20af6504e2378b6ebfd651dcc32d3a6d085",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc31-go2b_lookup",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc32-go2b_memoria_institucional.json",
+      "doc_id": "doc32",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc32-go2b_memoria_institucional.json",
+      "existe": true,
+      "tamanho_bytes": 78924,
+      "hash_sha256": "8d5053c68bc9594ecd814f69f15cee54a58dcb2d5e3da711fcddfc8d8d6d58c0",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "E",
+        "categoria_encontrada": "E",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc32-go2b_memoria_institucional",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc33-go2b_vectorizer_config.json",
+      "doc_id": "doc33",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc33-go2b_vectorizer_config.json",
+      "existe": true,
+      "tamanho_bytes": 60009,
+      "hash_sha256": "8b189b16797e5e9444eab7dc18f3270dec95f1fc011f724784a3d37d46d63608",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc33-go2b_vectorizer_config",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc34-Go2b-InstitucionalGPT.json",
+      "doc_id": "doc34",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc34-Go2b-InstitucionalGPT.json",
+      "existe": true,
+      "tamanho_bytes": 62748,
+      "hash_sha256": "21afeebbb410219a7810c4107bc915853bd580d6ad8994457b8bae2ff039b33a",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "H",
+        "categoria_encontrada": "H",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc34-Go2b-InstitucionalGPT",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc35-header.json",
+      "doc_id": "doc35",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc35-header.json",
+      "existe": true,
+      "tamanho_bytes": 50323,
+      "hash_sha256": "77530a1b65b4716f40303b5d1bfb72937c7f464b6e7345e0d33566802f1fa607",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc35-header",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc36-ImagensQuestoesResponder.jpg.json",
+      "doc_id": "doc36",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc36-ImagensQuestoesResponder.jpg.json",
+      "existe": true,
+      "tamanho_bytes": 173199,
+      "hash_sha256": "1ecfcb53bb03c7b77abd6300e39c4bd8295f4fbbb9fbc80d0daecca8a9b5e4f4",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "H",
+        "categoria_encontrada": "H",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc36-ImagensQuestoesResponder.jpg",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc37-index_metadata.json",
+      "doc_id": "doc37",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc37-index_metadata.json",
+      "existe": true,
+      "tamanho_bytes": 38291,
+      "hash_sha256": "7a283873a77664bcad7bb2a35ce2d68b7b2d8a29dddac7f9828f0ea06938a599",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc37-index_metadata",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc38-knowledge_index.json",
+      "doc_id": "doc38",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc38-knowledge_index.json",
+      "existe": true,
+      "tamanho_bytes": 38467,
+      "hash_sha256": "a42d69692276ea8bc4ef484292baaf030436cfe918e9a69b0e2e550f617c1e55",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc38-knowledge_index",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc39-LegalDocumentAnalysisProtocol-Claude.json",
+      "doc_id": "doc39",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc39-LegalDocumentAnalysisProtocol-Claude.json",
+      "existe": true,
+      "tamanho_bytes": 46847,
+      "hash_sha256": "46b0605ad2560c87a434932c56682751d4afdbf99320d27e08069d0cdec24e64",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc39-LegalDocumentAnalysisProtocol-Claude",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc40-LegalDocumentMatrixAnalysis-Claude.json",
+      "doc_id": "doc40",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc40-LegalDocumentMatrixAnalysis-Claude.json",
+      "existe": true,
+      "tamanho_bytes": 60967,
+      "hash_sha256": "bccdb8d8bfa0a41f9f5bdc3a99540d0722f6e2375af60632efa7c89408b1b899",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc40-LegalDocumentMatrixAnalysis-Claude",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc41-length.json",
+      "doc_id": "doc41",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc41-length.json",
+      "existe": true,
+      "tamanho_bytes": 32569,
+      "hash_sha256": "6648143045e1bcf36ceec83a5be424df374d8634426b7782889881942b7f606f",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc41-length",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc42-link_lists.json",
+      "doc_id": "doc42",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc42-link_lists.json",
+      "existe": true,
+      "tamanho_bytes": 30953,
+      "hash_sha256": "7897195952fc66e5538b69a0a231bafacf9224e0b451e3a03f55fd98642eb164",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc42-link_lists",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc44-matrix_summary.json",
+      "doc_id": "doc44",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc44-matrix_summary.json",
+      "existe": true,
+      "tamanho_bytes": 26770,
+      "hash_sha256": "f0ee47d5288d95301c5b8a7072be82a210702276e6b19a9e63ac330a6bd2620e",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc44-matrix_summary",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc45-matriz_unificada_go2b_v7.json",
+      "doc_id": "doc45",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc45-matriz_unificada_go2b_v7.json",
+      "existe": true,
+      "tamanho_bytes": 169027,
+      "hash_sha256": "a462fac8e2f96fa7470deea24213a7603199aa6cbf31363c67ad6528356bf720",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc45-matriz_unificada_go2b_v7",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc46-MEGA_CONTEXT.json",
+      "doc_id": "doc46",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc46-MEGA_CONTEXT.json",
+      "existe": true,
+      "tamanho_bytes": 109004,
+      "hash_sha256": "ca4ac9aae71cb96f8e2a9be57f641157f29aa98f3ba544601a09a62740d560d2",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc46-MEGA_CONTEXT",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc47-memoriainstitucional.json",
+      "doc_id": "doc47",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc47-memoriainstitucional.json",
+      "existe": true,
+      "tamanho_bytes": 96149,
+      "hash_sha256": "0d6ec250a3bc34ade5e980c56faf19d7e5f72ce476dd51e1c59a5630dbb1772b",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "E",
+        "categoria_encontrada": "E",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc47-memoriainstitucional",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc48-memory_config.json",
+      "doc_id": "doc48",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc48-memory_config.json",
+      "existe": true,
+      "tamanho_bytes": 23724,
+      "hash_sha256": "1fcb88c0965d8030227f8c24a52c265f2fbe0387711c5d959dd45da1f4e5442a",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc48-memory_config",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc49-ContextoeHistoricoImp.json",
+      "doc_id": "doc49",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc49-ContextoeHistoricoImp.json",
+      "existe": true,
+      "tamanho_bytes": 242666,
+      "hash_sha256": "d34f7ced662be5579c2f5c4def7f03e6e9b433f916355fdc0978ccef81cd7604",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "E",
+        "categoria_encontrada": "E",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc49-ContextoeHistoricoImp",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc50-chatsclaudeprojeto.json",
+      "doc_id": "doc50",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc50-chatsclaudeprojeto.json",
+      "existe": true,
+      "tamanho_bytes": 1278572,
+      "hash_sha256": "5f29b876779104386c18f72b706a25570cd502ce5dc2bfd326522ee21f41a9ed",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc50-chatsclaudeprojeto",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc51-MPF-JuntadaAutosECT-Completo-vs25082025.json",
+      "doc_id": "doc51",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc51-MPF-JuntadaAutosECT-Completo-vs25082025.json",
+      "existe": true,
+      "tamanho_bytes": 1402628,
+      "hash_sha256": "4258a8a0628b22cd4863fb1e5d0b3770c29cc5105bb7d5322bbace7807c3c5b7",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "A",
+        "categoria_encontrada": "A",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc51-MPF-JuntadaAutosECT-Completo-vs25082025",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc52-PadraoAtuacaoPL-Dagoberto-Exemplo.json",
+      "doc_id": "doc52",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc52-PadraoAtuacaoPL-Dagoberto-Exemplo.json",
+      "existe": true,
+      "tamanho_bytes": 29605,
+      "hash_sha256": "996c480b04a588054c02ed117c4d248bc531249ee195129ebe089a5669137333",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "B",
+        "categoria_encontrada": "B",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc52-PadraoAtuacaoPL-Dagoberto-Exemplo",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc53-Peticao09062025-1039604-94.2023.8.26.0405.json",
+      "doc_id": "doc53",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc53-Peticao09062025-1039604-94.2023.8.26.0405.json",
+      "existe": true,
+      "tamanho_bytes": 76599,
+      "hash_sha256": "7cb9bf36a64530f4d37978bb038c3c6aaabc58116cd24c29be9ffd8ccd3fc150",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "A",
+        "categoria_encontrada": "A",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc53-Peticao09062025-1039604-94.2023.8.26.0405",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc54-PosicionamentoPL-QuestionamentosAgo2024.json",
+      "doc_id": "doc54",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc54-PosicionamentoPL-QuestionamentosAgo2024.json",
+      "existe": true,
+      "tamanho_bytes": 44848,
+      "hash_sha256": "979f84ebd02ef477d50fcb3e88f492d307188cae1d150e077b63fda72b47905d",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "B",
+        "categoria_encontrada": "B",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc54-PosicionamentoPL-QuestionamentosAgo2024",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc55-PosicionamentoPL-QuestionamentosJul2024.json",
+      "doc_id": "doc55",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc55-PosicionamentoPL-QuestionamentosJul2024.json",
+      "existe": true,
+      "tamanho_bytes": 100805,
+      "hash_sha256": "0602384deace1cf15ce94b44d04bd5d453a7a3c5927f02c37deb8e64e06fa60d",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "B",
+        "categoria_encontrada": "B",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc55-PosicionamentoPL-QuestionamentosJul2024",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc56-PosicionamentoPL-QuestionamentosSet2024.json",
+      "doc_id": "doc56",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc56-PosicionamentoPL-QuestionamentosSet2024.json",
+      "existe": true,
+      "tamanho_bytes": 64892,
+      "hash_sha256": "971118039af9c49df12c8d31b688010387c2653ade3b16c835a08fb1a1ca9dfe",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "B",
+        "categoria_encontrada": "B",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc56-PosicionamentoPL-QuestionamentosSet2024",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc57-PosicionamentoPL-SuspensaoQuestionados.json",
+      "doc_id": "doc57",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc57-PosicionamentoPL-SuspensaoQuestionados.json",
+      "existe": true,
+      "tamanho_bytes": 50272,
+      "hash_sha256": "db8fe9836fae0f73e6b522fa981557fef7f77769c53eabd12b31ab5dcabed161",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "B",
+        "categoria_encontrada": "B",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc57-PosicionamentoPL-SuspensaoQuestionados",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc59-ProcessoqueResultouApropriacaoCredito-Dagoberto.json",
+      "doc_id": "doc59",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc59-ProcessoqueResultouApropriacaoCredito-Dagoberto.json",
+      "existe": true,
+      "tamanho_bytes": 49607,
+      "hash_sha256": "27c4c929fa04543e4533f6c3bc6227689f32dc13dbcac3c16aa95ec0f9da7191",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "C",
+        "categoria_encontrada": "C",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc59-ProcessoqueResultouApropriacaoCredito-Dagoberto",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Trocas de e-mails com Dagoberto, CEO da PL, sobre Processo que envolve a CMZ e que no final teve crédito apropriado. Notem claro posicionamento superficial visando omitir tratamento."
+      },
+      "validacoes_juridicas": {
+        "doc59_correcao": true,
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc60-ProcessoqueResultouApropriacaoCredito-Dirceu.json",
+      "doc_id": "doc60",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc60-ProcessoqueResultouApropriacaoCredito-Dirceu.json",
+      "existe": true,
+      "tamanho_bytes": 52776,
+      "hash_sha256": "844f84bca38e9171f6003f94e6e828637666d90fb027eaff1bcbbf8000dee194",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "C",
+        "categoria_encontrada": "C",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc60-ProcessoqueResultouApropriacaoCredito-Dirceu",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc61-proposed_architecture.json",
+      "doc_id": "doc61",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc61-proposed_architecture.json",
+      "existe": true,
+      "tamanho_bytes": 23231,
+      "hash_sha256": "875746e7cdc0a22abe02cdd5058b38e9153f2cef5ea70ae438169cf8c78cccc3",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc61-proposed_architecture",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc62-relatorio_fases_1_2_3_4_consolidadoCompletoTemas.json",
+      "doc_id": "doc62",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc62-relatorio_fases_1_2_3_4_consolidadoCompletoTemas.json",
+      "existe": true,
+      "tamanho_bytes": 332864,
+      "hash_sha256": "f1cef32f40efd0b69ad2884ff4eddd85936ba9dc00ee096933d6aeef441fb886",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "D",
+        "categoria_encontrada": "D",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc62-relatorio_fases_1_2_3_4_consolidadoCompletoTemas",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b.json",
+      "doc_id": "doc63",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b.json",
+      "existe": true,
+      "tamanho_bytes": 76522,
+      "hash_sha256": "257a07bf650b9c5ab92752f651d6101daa189f119a1d00ded46d7a62b8db4588",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "D",
+        "categoria_encontrada": "D",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc64-RelatorioTrocaDNS19052025.json",
+      "doc_id": "doc64",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc64-RelatorioTrocaDNS19052025.json",
+      "existe": true,
+      "tamanho_bytes": 99255,
+      "hash_sha256": "e92587f63109d7ecc6cb570d3749c9ccff1bd3ab2e26e92cb222fae4bd561f89",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "A",
+        "categoria_encontrada": "A",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc64-RelatorioTrocaDNS19052025",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc65-temporal_index.json",
+      "doc_id": "doc65",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc65-temporal_index.json",
+      "existe": true,
+      "tamanho_bytes": 21641,
+      "hash_sha256": "3d9f02ccae762a639d12024df4c8b0b56e86ffa97fe55916b3001b2326b3736e",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "I",
+        "categoria_encontrada": "I",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc65-temporal_index",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc66-memory_prompt_claude.json",
+      "doc_id": "doc66",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc66-memory_prompt_claude.json",
+      "existe": true,
+      "tamanho_bytes": 34466,
+      "hash_sha256": "a4f78c8e6cd7a488675a94a2bb810e7c85274894beab6f4f0d4edb25e170abd0",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc66-memory_prompt_claude",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc67-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs02.json",
+      "doc_id": "doc67",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc67-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs02.json",
+      "existe": true,
+      "tamanho_bytes": 1050260,
+      "hash_sha256": "85140c9321118cf723c0689aea97353b94d85bffe4bc881d058f2fe05d937d15",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc67-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs02",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc68-RoteiroeAnexosTodos26082025.json",
+      "doc_id": "doc68",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc68-RoteiroeAnexosTodos26082025.json",
+      "existe": true,
+      "tamanho_bytes": 5071565,
+      "hash_sha256": "9adb2de17dabf4d3f447d8458586034f8b922f8834d24aee3170d3f8cb594377",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "A",
+        "categoria_encontrada": "A",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc68-RoteiroeAnexosTodos26082025",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": true
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc69-BaseRevisaoInteligence.json",
+      "doc_id": "doc69",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc69-BaseRevisaoInteligence.json",
+      "existe": true,
+      "tamanho_bytes": 78155,
+      "hash_sha256": "6182641da36b19a5a27621b32d06eb650792005cfb807c985bdd9f510dc5d2fa",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "A",
+        "categoria_encontrada": "A",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc69-BaseRevisaoInteligence",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc70-RecuperacaoJudicialProcessosJudicialAnalise-ComProcesso.json",
+      "doc_id": "doc70",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc70-RecuperacaoJudicialProcessosJudicialAnalise-ComProcesso.json",
+      "existe": true,
+      "tamanho_bytes": 29258,
+      "hash_sha256": "313ac73f12dd5ec6b8e6a334910e124c73929cde45e8a1af33b7a68e4ecae352",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "A",
+        "categoria_encontrada": "A",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc70-RecuperacaoJudicialProcessosJudicialAnalise-ComProcesso",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc71-MEMORY_GO2B_RECONCILIADO_API_v5.json",
+      "doc_id": "doc71",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc71-MEMORY_GO2B_RECONCILIADO_API_v5.json",
+      "existe": true,
+      "tamanho_bytes": 47663,
+      "hash_sha256": "37b53e50909bebf38c804e829e9df00155a5a399fa89f67ef83a151f94252c31",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc71-MEMORY_GO2B_RECONCILIADO_API_v5",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc72-Artefatos_AvaliacaoMegajonsReconciliada.json",
+      "doc_id": "doc72",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc72-Artefatos_AvaliacaoMegajonsReconciliada.json",
+      "existe": true,
+      "tamanho_bytes": 27019,
+      "hash_sha256": "7abd45712a683a283c993b59f5e31aaa5459c2eb7e8942aa86e9b4acc577bfcf",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc72-Artefatos_AvaliacaoMegajonsReconciliada",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc73-ModeloInteligenciaCorrelacoesConfianca.json",
+      "doc_id": "doc73",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc73-ModeloInteligenciaCorrelacoesConfianca.json",
+      "existe": true,
+      "tamanho_bytes": 34679,
+      "hash_sha256": "0ffb5f394379ecc4540eae834db81fa956d2a335e5ade40764f967d1a821ca39",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "D",
+        "categoria_encontrada": "D",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc73-ModeloInteligenciaCorrelacoesConfianca",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    },
+    {
+      "arquivo": "doc74-fusaoartefatos_a_b_c_Incompletovsclaude.json",
+      "doc_id": "doc74",
+      "caminho": "/Users/AdrianoHamu/Desktop/BaseConhecimento/RecupJudicial05062025/BaseAvaliação-Ago2025/DocsUsadosOrientacao/documentosconhecimento/docs-jsonspordoc/doc74-fusaoartefatos_a_b_c_Incompletovsclaude.json",
+      "existe": true,
+      "tamanho_bytes": 136651,
+      "hash_sha256": "a771c477319f221b22588c063a76ccf0d1a98b256155c956c25aee3c1b607dad",
+      "json_valido": true,
+      "validacao_estrutural": {
+        "campos_obrigatorios": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "id_documento",
+            "categoria",
+            "descricao_adriano"
+          ],
+          "ausentes": [],
+          "percentual_completude": 100.0
+        },
+        "campos_futuros": {
+          "total_esperado": 7,
+          "total_encontrado": 7,
+          "presentes": [
+            "prioridade_processual",
+            "relevancia_juridica",
+            "evidencias",
+            "relacionamentos",
+            "analise_contratos_bancarios",
+            "execucoes_socios_go2b",
+            "nexo_causal_ect"
+          ],
+          "ausentes": [],
+          "status_pendente_correto": 7
+        },
+        "campos_preservados": {
+          "total_esperado": 3,
+          "total_encontrado": 3,
+          "presentes": [
+            "referencia_md_acessivel",
+            "referencia_md_omniconvert",
+            "analise_ia_real"
+          ],
+          "ausentes": []
+        }
+      },
+      "validacao_categorica": {
+        "categoria_esperada": "F",
+        "categoria_encontrada": "F",
+        "categoria_correta": true
+      },
+      "validacao_id_documento": {
+        "id_presente": true,
+        "id_valor": "doc74-fusaoartefatos_a_b_c_Incompletovsclaude",
+        "id_formato_correto": true,
+        "id_corresponde_arquivo": true
+      },
+      "validacao_descricao_adriano": {
+        "presente": true,
+        "status_preenchido": true,
+        "tem_texto_especifico": true,
+        "descricao_amostra": "Descrição não disponível"
+      },
+      "validacoes_juridicas": {
+        "inquerito_mpf": true,
+        "processo_rj": true,
+        "apropriacao_cmz": true,
+        "ect_debito": true,
+        "desassistencia": true,
+        "dagoberto_pl": false
+      },
+      "problemas_criticos": [],
+      "score_final": 100.0,
+      "status_aprovacao": "APROVADO"
+    }
+  ],
+  "problemas_por_categoria": {},
+  "recomendacoes_corretivas": [],
+  "status_final": "SISTEMA_OPERACIONAL"
+}
