@@ -1,0 +1,2820 @@
+{
+  "meta": {
+    "timestamp": "2025-09-09T22:28:58.439067",
+    "duracao_segundos": 0.853544,
+    "total_arquivos": 71
+  },
+  "estatisticas": {
+    "total_arquivos": 71,
+    "problemas_criticos": 0,
+    "problemas_estrutura": 71,
+    "problemas_conteudo": 0,
+    "problemas_encoding": 0,
+    "arquivos_perfeitos": 0,
+    "score_medio": 72.46478873239437
+  },
+  "mapa_problemas_global": {
+    "CRITICOS": [],
+    "ESTRUTURAIS": [
+      {
+        "doc_id": "doc01",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc02",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc03",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc04",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc05",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc06",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc07",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc08",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc09",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc10",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc11",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc12",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc13",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc14",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc15",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc16",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc17",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc18",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc19",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc20",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc21",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc22",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc23",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc24",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc25",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc26",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc27",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc29",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc30",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc31",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc32",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc33",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc34",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc35",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc36",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc37",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc38",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc39",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc40",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc41",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc42",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc44",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc45",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc46",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc47",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc48",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc49",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc50",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc51",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc52",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc53",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc54",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc55",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc56",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc57",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc59",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc60",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc61",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc62",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc63",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc64",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc65",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc66",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc67",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc68",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc69",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc70",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc71",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc72",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      },
+      {
+        "doc_id": "doc73",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEUTRO"
+      },
+      {
+        "doc_id": "doc74",
+        "problema": "TIPO_INCORRETO_descricao_adriano_<class 'dict'>",
+        "impacto_fase2": "NEGATIVO"
+      }
+    ],
+    "CONTEUDO": [],
+    "ENCODING": [],
+    "MENORES": []
+  },
+  "resultados_detalhados": [
+    {
+      "arquivo": "doc01-actor_index.json",
+      "doc_id": "doc01",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc01-actor_index.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.441992",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 34509,
+        "hash_sha256": "2782d936ae7a9dfc6b219bec7d4f254d568ea55b03771b2e53e423eb33b85613",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.660862",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc02-anexo_degradacao.json",
+      "doc_id": "doc02",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc02-anexo_degradacao.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.447353",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 117875,
+        "hash_sha256": "7d15803aca1cc99ede79a124eaae83d06ba6fb2d956a7ccbd49b5bd3683b3526",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.416535",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc03-anexo_fluxo_dinheiro.json",
+      "doc_id": "doc03",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc03-anexo_fluxo_dinheiro.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.458992",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 67638,
+        "hash_sha256": "7922bd166d399b03a9fb06b88bbf069642f525d964d84ab6223a2c9f85b4c08c",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.610945",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc04-anexo_tabela_violacoes.json",
+      "doc_id": "doc04",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc04-anexo_tabela_violacoes.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.464487",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 170602,
+        "hash_sha256": "71c626b65e04ea5647267e1329fd36895e2dd234c755851541fb8e8feef7372b",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.623189",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc05-artefatos.json",
+      "doc_id": "doc05",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc05-artefatos.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.476593",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 70825,
+        "hash_sha256": "ea5dfdf0d50e586062daf8eb7b85bc6871d8c2815fec6e593e7369187f805dda",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.670697",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc06-AvRJGrok-01.json",
+      "doc_id": "doc06",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc06-AvRJGrok-01.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.480775",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 134928,
+        "hash_sha256": "c88f2cb02df10a530fb99114cf93f7d0daac5142cd95589d9a05c2faccaabee2",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.594137",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc07-AvRJGrok-02.json",
+      "doc_id": "doc07",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc07-AvRJGrok-02.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.487900",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 66583,
+        "hash_sha256": "fb25e87d2577f2f32a2d45fc62138892f038ced6d11096fe3c373c6c8f9cae08",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.451191",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc08-AvRJGrok-03.json",
+      "doc_id": "doc08",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc08-AvRJGrok-03.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.492024",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 61808,
+        "hash_sha256": "7739add7cae268acaba3738c38f1265575358e6d9a69ffffa75a9d7bc9bc48b7",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.414406",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc09-chroma.json",
+      "doc_id": "doc09",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc09-chroma.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.495064",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 32563,
+        "hash_sha256": "160b07577497b40952df85453de533628a16e96ec751df78ee8a7ceabf7bcf15",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.591127",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc10-ComunicacoeseAlertas-FaltaAtuacaoPLConsol.json",
+      "doc_id": "doc10",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc10-ComunicacoeseAlertas-FaltaAtuacaoPLConsol.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.496507",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 151488,
+        "hash_sha256": "1b4441f5854715fce6baf75292b89e7b3809cf8fa63196d0861a17cfebd4f0d0",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.586958",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc11-ContratoRecupJudicial.json",
+      "doc_id": "doc11",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc11-ContratoRecupJudicial.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.503383",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 90257,
+        "hash_sha256": "f023d0ffc2524239d39bd9ba2aea0de2e4bb2cc8027b27d654b4f12a28938a62",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.665534",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc12-DagobertoPadraoPL.-Diversos.json",
+      "doc_id": "doc12",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc12-DagobertoPadraoPL.-Diversos.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.507300",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 4326307,
+        "hash_sha256": "8688145c4b194db2783a7732931ac165302bc0c9bf28443dbcd64f42cdf6f26d",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.650587",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc13-data_level0.json",
+      "doc_id": "doc13",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc13-data_level0.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.646056",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 842986,
+        "hash_sha256": "7fc3e290b6b6c21c0c0c908039c59dbd9c49b21a9d1ed1011170f1f394b4af40",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.579979",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc14-deep_memory.json",
+      "doc_id": "doc14",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc14-deep_memory.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.674769",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 666943,
+        "hash_sha256": "ffcd479ba7eca74f2e8cda853848c54cbcaf04b8cb74023bf62f739b71b0d3e9",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.526954",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc15-Dez2023NegociacaoInicialCtoRJ.json",
+      "doc_id": "doc15",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc15-Dez2023NegociacaoInicialCtoRJ.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.704826",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 555760,
+        "hash_sha256": "a2454f808e2482c9b18b35c48fed2c8d54f5d6169687dc61170f5353a1bbe665",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.536493",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc16-DOCCEN-HistoricoContexto.json",
+      "doc_id": "doc16",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc16-DOCCEN-HistoricoContexto.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.726516",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 436664,
+        "hash_sha256": "1c25f018499c1fffb9ac8ee7a1b4069a665cba9a2a33935783f7330977d61dd3",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.681961",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc17-documentosbaseconhecimento.json",
+      "doc_id": "doc17",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc17-documentosbaseconhecimento.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.743544",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 1642603,
+        "hash_sha256": "83bde1e7fbfddb991069ce4218fe98a03c3ae2eb6cb9a8f5cb0ca2468667722d",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.549364",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc18-EstrategiasePilaresJun25Consol.json",
+      "doc_id": "doc18",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc18-EstrategiasePilaresJun25Consol.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.795874",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 362129,
+        "hash_sha256": "b1e0926da7f8b7faaba7c776dbf8f837387500aee6c20ced16490940586494bf",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.674210",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc19-evidence_index.json",
+      "doc_id": "doc19",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc19-evidence_index.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.809853",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 176383,
+        "hash_sha256": "fa51c68e4e04283e3b2522487820bf8031184342213fc311bf83d0317104608c",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.513491",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc20-evidencias_all.json",
+      "doc_id": "doc20",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc20-evidencias_all.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.815665",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 182672,
+        "hash_sha256": "6cb95fb71fb36dd7dbbc338494f7fcbf00445afa19d2f4a58de6310ff58c28d1",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.518339",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc21-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs01.json",
+      "doc_id": "doc21",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc21-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs01.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.823027",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 670249,
+        "hash_sha256": "61295f51fa51f5380dbe4b59770a94985af1105b1f3ec16ffa3815c237fa7822",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.506479",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc22-GitHubRawFilesAnalysis-Claude.json",
+      "doc_id": "doc22",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc22-GitHubRawFilesAnalysis-Claude.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.848099",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 130784,
+        "hash_sha256": "7f53f88cc6b54394dcec124606cf4bd56aab743c80cfdb7d17f574fda4c8f22e",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.515509",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc23-go2b_analyses.json",
+      "doc_id": "doc23",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc23-go2b_analyses.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.852790",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 127712,
+        "hash_sha256": "6343e2f97f05d25482f2c975015616d17b0413d213aaa6ab337a47952d258e8f",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.408498",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc24-go2b_embeddings_meta.json",
+      "doc_id": "doc24",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc24-go2b_embeddings_meta.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.856555",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 119015,
+        "hash_sha256": "b3797b2804e22a8f14205e5c003b085b4a145d04fabd9b153b36a4552fc52048",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.602511",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc25-go2b_faiss.json",
+      "doc_id": "doc25",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc25-go2b_faiss.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.860656",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 123581,
+        "hash_sha256": "0a2d94d09f49bf1cf73c302795809098278f7bc0a380480940e2ef7481584539",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.584959",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc26-go2b_kb.json",
+      "doc_id": "doc26",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc26-go2b_kb.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.864911",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 41407,
+        "hash_sha256": "429c70fd4b4ceb0f368bb08ff1049381bd852114951da061680951ad07305ccd",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.687723",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc27-go2b_kb_for_bm25_cache.json",
+      "doc_id": "doc27",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc27-go2b_kb_for_bm25_cache.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.866504",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 80581,
+        "hash_sha256": "147d7c7fb1a7653e52c7ac4eb28242ebd972448408aa4ada39e07c1d6cf2c9e9",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.606818",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc29-go2b_knowledge_base.json",
+      "doc_id": "doc29",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc29-go2b_knowledge_base.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.869446",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 76464,
+        "hash_sha256": "9b955002ca49f35eea089680842a5b00dd26eb2a1d07e445853a8930d2790515",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.555121",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc30-go2b_lexical_index.json",
+      "doc_id": "doc30",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc30-go2b_lexical_index.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.872407",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 57958,
+        "hash_sha256": "b61259142e62f2ef87defd358dbd8a8c4c75a6787cd96178f9a0692ed83bb4bc",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.589905",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc31-go2b_lookup.json",
+      "doc_id": "doc31",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc31-go2b_lookup.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.874686",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 60413,
+        "hash_sha256": "b5a202012cc98651bd8567f18d3b2faa7a4778104eff2a5459985435a500637d",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.511793",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc32-go2b_memoria_institucional.json",
+      "doc_id": "doc32",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc32-go2b_memoria_institucional.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.877023",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 78401,
+        "hash_sha256": "2445bf26f58d6a4175176736a8a5f70777f674b7b7138b6452c22d6641dc1bdf",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.684419",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc33-go2b_vectorizer_config.json",
+      "doc_id": "doc33",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc33-go2b_vectorizer_config.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.879825",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 59441,
+        "hash_sha256": "d84c0a858293061a1b80482dc5c34923bd9d98e227a8844363cced74261609d0",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.667011",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc34-Go2b-InstitucionalGPT.json",
+      "doc_id": "doc34",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc34-Go2b-InstitucionalGPT.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.882108",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 62149,
+        "hash_sha256": "a1f58547f76775a9db0aad7c3e87dffbf6b0455d2e48c0b07f2e2c6e4d087c1e",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.624868",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc35-header.json",
+      "doc_id": "doc35",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc35-header.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.884524",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 49740,
+        "hash_sha256": "fb8e8d74f3531be3e4c31675a0bdd4b27cc0fe1c3c016a996a2effb2aaa3e4fd",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.621285",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc36-ImagensQuestoesResponder.jpg.json",
+      "doc_id": "doc36",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc36-ImagensQuestoesResponder.jpg.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.886410",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 172654,
+        "hash_sha256": "d2e472c616ea468f7c4c8e00ff0eec36c40eb5a0a80a498622863442c9ddc818",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.663717",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc37-index_metadata.json",
+      "doc_id": "doc37",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc37-index_metadata.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.892138",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 37723,
+        "hash_sha256": "206fc59d0059554540dcf027a45bbfeb8b325995e2ddee8eba89756f00c67fef",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.573814",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc38-knowledge_index.json",
+      "doc_id": "doc38",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc38-knowledge_index.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.893690",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 37899,
+        "hash_sha256": "a80a21bd9eea4087ab676df47f40ad1fdcca8d6befd205dfc28165689ba33d77",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.596451",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc39-LegalDocumentAnalysisProtocol-Claude.json",
+      "doc_id": "doc39",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc39-LegalDocumentAnalysisProtocol-Claude.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.895237",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 46302,
+        "hash_sha256": "2b4155dd05b822694e860f474e6cabffecfc5d91f062410fb9d3291fa050a31c",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.449588",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc40-LegalDocumentMatrixAnalysis-Claude.json",
+      "doc_id": "doc40",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc40-LegalDocumentMatrixAnalysis-Claude.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.897154",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 60422,
+        "hash_sha256": "318fcafccc1bc3ff53ff3bc479e95ba51ca55a084a1ea26354f9431c2ac94553",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.676242",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc41-length.json",
+      "doc_id": "doc41",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc41-length.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.899529",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 31994,
+        "hash_sha256": "cab19ece0da7f69084f2eb600d25a26ebbd35ee0b7f188b47bf54a2197f7bfec",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.618550",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc42-link_lists.json",
+      "doc_id": "doc42",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc42-link_lists.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.901000",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 30407,
+        "hash_sha256": "da8fea1e83f4a8e7a867737d7ec3833419d2c2084dfa52ede6ef581d4c007a3f",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.661824",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc44-matrix_summary.json",
+      "doc_id": "doc44",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc44-matrix_summary.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.902353",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 26202,
+        "hash_sha256": "e3d617792623e492e16d862a2b1a79dea920800b62635bfe00b3bb9a023d928a",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.404904",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc45-matriz_unificada_go2b_v7.json",
+      "doc_id": "doc45",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc45-matriz_unificada_go2b_v7.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.903343",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 168504,
+        "hash_sha256": "6ee06d2767fd5db443c7deaf85e4a7eb90327ae6737f505243c01a5ba1dd9394",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.600291",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc46-MEGA_CONTEXT.json",
+      "doc_id": "doc46",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc46-MEGA_CONTEXT.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.909448",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 108459,
+        "hash_sha256": "44c43d1356a380ca4033830d43cd2d8eecc7b668e86a2a23b8e37c4c2d2d64d0",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.609274",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc47-memoriainstitucional.json",
+      "doc_id": "doc47",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc47-memoriainstitucional.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.912900",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 95604,
+        "hash_sha256": "237d9437317c0e3489c3516617494519705f3fb0156eff6bf07022a84283efdd",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.614862",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc48-memory_config.json",
+      "doc_id": "doc48",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc48-memory_config.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.916290",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 23179,
+        "hash_sha256": "00194fe737bf4a06af570fc8bbac7f109b67cd897ac13a5428c28f08a049ad15",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.510603",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc49-ContextoeHistoricoImp.json",
+      "doc_id": "doc49",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc49-ContextoeHistoricoImp.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.917476",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 242121,
+        "hash_sha256": "3b3292f0b6488eff6859acd777c9f5ea3d01cbe648a30c3d3b674c2619e09b2c",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.557654",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc50-chatsclaudeprojeto.json",
+      "doc_id": "doc50",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc50-chatsclaudeprojeto.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.925821",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 1278018,
+        "hash_sha256": "9902069d7e5ca05f835fe1f616f9ff0c68bd6c61496f30ddc5103bfacb4b95d0",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.438875",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc51-MPF-JuntadaAutosECT-Completo-vs25082025.json",
+      "doc_id": "doc51",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc51-MPF-JuntadaAutosECT-Completo-vs25082025.json",
+      "timestamp_auditoria": "2025-09-09T22:28:58.982009",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 1402395,
+        "hash_sha256": "9789c038720c47b32321775d7a906e5a552322415e52474de6bca8265126d64b",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.696958",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc52-PadraoAtuacaoPL-Dagoberto-Exemplo.json",
+      "doc_id": "doc52",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc52-PadraoAtuacaoPL-Dagoberto-Exemplo.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.027828",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 29051,
+        "hash_sha256": "4bfa11fb239aa2342066cd83f8a5a358418fd29d5c1437f13449047e06b3f7c5",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.559270",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc53-Peticao09062025-1039604-94.2023.8.26.0405.json",
+      "doc_id": "doc53",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc53-Peticao09062025-1039604-94.2023.8.26.0405.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.029437",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 76006,
+        "hash_sha256": "74328070b2ef4f85e75598a3cc2ad54f23c14e4996e7a35f907f28545ccfc854",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.583101",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc54-PosicionamentoPL-QuestionamentosAgo2024.json",
+      "doc_id": "doc54",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc54-PosicionamentoPL-QuestionamentosAgo2024.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.032392",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 44302,
+        "hash_sha256": "75bde0371271bcd87849b209f03ebdb1afe8492a7c2e00834eac7c39644f6e5f",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.412116",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc55-PosicionamentoPL-QuestionamentosJul2024.json",
+      "doc_id": "doc55",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc55-PosicionamentoPL-QuestionamentosJul2024.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.034345",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 100259,
+        "hash_sha256": "b51fbc82e77bac2ac4a37062ed196dced413ec2905c8f641ab2a95f36ed60924",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.686302",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc56-PosicionamentoPL-QuestionamentosSet2024.json",
+      "doc_id": "doc56",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc56-PosicionamentoPL-QuestionamentosSet2024.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.038039",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 64346,
+        "hash_sha256": "12e54a9a8e7c6da2ae86642e0188c9361e7de6b374bbb5c2b2218225afe5c1a2",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.605190",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc57-PosicionamentoPL-SuspensaoQuestionados.json",
+      "doc_id": "doc57",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc57-PosicionamentoPL-SuspensaoQuestionados.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.040485",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 49726,
+        "hash_sha256": "655c8ad13aa9cc0c89c7b150aefd4efb94dcbea6b38b8d3e96e87fe39809ace3",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.617548",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc59-ProcessoqueResultouApropriacaoCredito-Dagoberto.json",
+      "doc_id": "doc59",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc59-ProcessoqueResultouApropriacaoCredito-Dagoberto.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.042430",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 49527,
+        "hash_sha256": "a9d4e04cd0108bb070060278539675d250c8558a355334cccc734cd5e6d80f4b",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.616137",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc60-ProcessoqueResultouApropriacaoCredito-Dirceu.json",
+      "doc_id": "doc60",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc60-ProcessoqueResultouApropriacaoCredito-Dirceu.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.044455",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 52696,
+        "hash_sha256": "527818e9ad8096007427dfc705b83b01e8d3774e08626a93ead37b2b228df14b",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.700911",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc61-proposed_architecture.json",
+      "doc_id": "doc61",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc61-proposed_architecture.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.046811",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 22708,
+        "hash_sha256": "bcad89e341195ffb3e27a07326b4bd9e79b7d3c9148f8d1e9fcbc12e1f319b8f",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.509607",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc62-relatorio_fases_1_2_3_4_consolidadoCompletoTemas.json",
+      "doc_id": "doc62",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc62-relatorio_fases_1_2_3_4_consolidadoCompletoTemas.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.048031",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 332319,
+        "hash_sha256": "1f1713ef8d222d38ca5591bc0a1b2102ac9950d2e334feb2f5bf02b2efad918f",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.455605",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b.json",
+      "doc_id": "doc63",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.060646",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 75929,
+        "hash_sha256": "d97bd07115d2d9cbaa99e972ee56b08726e876fb24b6d050b20310041b3e9ee4",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.613088",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc64-RelatorioTrocaDNS19052025.json",
+      "doc_id": "doc64",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc64-RelatorioTrocaDNS19052025.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.063920",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 98864,
+        "hash_sha256": "04362b28c4d9568eab5555ce774955db3a55058922aaad89a6a355abf26692b4",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.677649",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc65-temporal_index.json",
+      "doc_id": "doc65",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc65-temporal_index.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.067605",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 21203,
+        "hash_sha256": "ffd96271dd29a891a53d24ad0d2dea0e40cf2020137b0a22944f869714fd60f2",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.410313",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc66-memory_prompt_claude.json",
+      "doc_id": "doc66",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc66-memory_prompt_claude.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.068787",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 33928,
+        "hash_sha256": "00cfacd6ea2159c257a947b5c7882614758eac758292f9ae340dc727c3b7fe95",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.572673",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc67-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs02.json",
+      "doc_id": "doc67",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc67-fusaointegradaGo2bRecupJudicialGPTcomEnviodocsvs02.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.070370",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 1049684,
+        "hash_sha256": "e308611b6dc136a69efa1abf3f2734604b1435ca0ca53fd773c7acdef9f9d5fa",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.568541",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc68-RoteiroeAnexosTodos26082025.json",
+      "doc_id": "doc68",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc68-RoteiroeAnexosTodos26082025.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.109446",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 5071020,
+        "hash_sha256": "80d9ab140155f64b1fa83b63849c880f784e52616f0145fd11cc3bd2da7ea8bc",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.489842",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc69-BaseRevisaoInteligence.json",
+      "doc_id": "doc69",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc69-BaseRevisaoInteligence.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.277678",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 77610,
+        "hash_sha256": "25088ed4477d9b51f46998a5b5ab14211210f091c47087291e8be72986e12e47",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.619931",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc70-RecuperacaoJudicialProcessosJudicialAnalise-ComProcesso.json",
+      "doc_id": "doc70",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc70-RecuperacaoJudicialProcessosJudicialAnalise-ComProcesso.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.281478",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 28735,
+        "hash_sha256": "9a0b3b08944dc63026723bc918e8d2ad6728e7a97cd80e49cfa63328044842ee",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.592249",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc71-MEMORY_GO2B_RECONCILIADO_API_v5.json",
+      "doc_id": "doc71",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc71-MEMORY_GO2B_RECONCILIADO_API_v5.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.282867",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 47427,
+        "hash_sha256": "b5ca160c4ac96db6d942d054f67f724983f3e1e31c675e5af2ec8ae8e02b14ea",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.588606",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc72-Artefatos_AvaliacaoMegajonsReconciliada.json",
+      "doc_id": "doc72",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc72-Artefatos_AvaliacaoMegajonsReconciliada.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.284939",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 26517,
+        "hash_sha256": "23d2382c2a55dd3a58a3ab284da171c9d0c16c5260047f79eaf8c71d1a1eb290",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.603821",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    },
+    {
+      "arquivo": "doc73-ModeloInteligenciaCorrelacoesConfianca.json",
+      "doc_id": "doc73",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc73-ModeloInteligenciaCorrelacoesConfianca.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.286215",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 34103,
+        "hash_sha256": "addf979fdf4e9497a5494351617302363bb5b1d8abb50197d03e553d214d57d3",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.595460",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 75,
+      "classificacao_final": "BOM",
+      "recomendacao_acao": "RECOMENDADA",
+      "impacto_fase2": "NEUTRO"
+    },
+    {
+      "arquivo": "doc74-fusaoartefatos_a_b_c_Incompletovsclaude.json",
+      "doc_id": "doc74",
+      "caminho": "/Users/adrianohamu/Documents/RecupJudicial-IA/documentos_go2b_RJ/docs-jsonspordoc/doc74-fusaoartefatos_a_b_c_Incompletovsclaude.json",
+      "timestamp_auditoria": "2025-09-09T22:28:59.287832",
+      "integridade": {
+        "arquivo_existe": true,
+        "tamanho_bytes": 136384,
+        "hash_sha256": "1a471fd53fe457708b8efb40f2fb985e4828cdea86951814929d1147c2f1e011",
+        "encoding_ok": false,
+        "json_valido": true,
+        "tempo_modificacao": "2025-09-09 22:05:18.668900",
+        "problemas_integridade": [
+          "CHAR_SUSPEITO_195",
+          "CHAR_SUSPEITO_194"
+        ]
+      },
+      "problemas_estrutura": [
+        "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+      ],
+      "problemas_consistencia": [],
+      "problemas_conteudo": [],
+      "classificacao_problemas": {
+        "CRITICOS": [],
+        "ESTRUTURAIS": [
+          "TIPO_INCORRETO_descricao_adriano_<class 'dict'>"
+        ],
+        "CONTEUDO": [],
+        "MENORES": []
+      },
+      "score_qualidade": 65,
+      "classificacao_final": "INSUFICIENTE",
+      "recomendacao_acao": "NECESSARIA",
+      "impacto_fase2": "NEGATIVO"
+    }
+  ],
+  "analise_executiva": {
+    "aprovacao_fase2": "APROVADO_CONDICIONAL",
+    "justificativa": "4/4 nucleares OK, corrigir bloqueantes",
+    "acoes_prioritarias": [],
+    "documentos_bloqueantes": [],
+    "estimativa_correcoes": "1-2 horas"
+  }
+}
